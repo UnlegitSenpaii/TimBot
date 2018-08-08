@@ -60,6 +60,19 @@ bot.on("ready", function(){
     console.log("######################################################################");
     console.log("################## Successfully started the bot ######################");
     console.log("######################################################################");
+    let statuses = [
+        "Developer",
+        "Developer",
+        "Creator:⎛⎝Senpaii Satanist⎠⎞#1633"
+    ]
+
+    //message.member.roles.find("name","Neko")
+    setInterval(function() {
+        let status = statuses[Math.floor(Math.random() * statuses.length)]
+        bot.user.setActivity(status);
+
+    }, 10000)
+    bot.user.setStatus("Online")
 });
 
 bot.on("guildMemberAdd", function(member){
