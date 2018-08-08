@@ -1,0 +1,23 @@
+{
+  "name": "timbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnlegitSenpaii/TimBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UnlegitSenpaii/TimBot/issues"
+  },
+  "homepage": "https://github.com/UnlegitSenpaii/TimBot#readme",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "discord.js-commando": "^0.10.0"
+  }
+}
