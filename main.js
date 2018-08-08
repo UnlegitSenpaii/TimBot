@@ -65,8 +65,6 @@ bot.on("ready", function(){
         "Developer",
         "Creator:⎛⎝Senpaii Satanist⎠⎞#1633"
     ]
-
-    //message.member.roles.find("name","Neko")
     setInterval(function() {
         let status = statuses[Math.floor(Math.random() * statuses.length)]
         bot.user.setActivity(status);
