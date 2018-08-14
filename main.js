@@ -7,6 +7,7 @@ bot.registry.registerGroup("simple", "Simple");
 bot.registry.registerGroup("management", "Management");
 bot.registry.registerDefaults();
 bot.registry.registerCommandsIn(__dirname+ "/commands");
+
     //globals
 global.disablechat = false;
 global.links = true;
